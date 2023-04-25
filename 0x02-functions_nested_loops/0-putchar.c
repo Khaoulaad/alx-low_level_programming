@@ -1,4 +1,5 @@
 #include <main.h>
+int main (void)
 {
 putchar('_');
 putchar('p');
