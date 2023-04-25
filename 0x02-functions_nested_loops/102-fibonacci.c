@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * 50_fibo - prints 50 fibo numbers
+ * fibo_50 - prints 50 fibo numbers
  *
  * Return: Always 0.
  */
-void 50_fibo(void)
+void fibo_50(void)
 {
 unsigned int target;
 unsigned long int f, l, i, fib;
@@ -33,6 +33,6 @@ putchar('\n');
  */
 int main(void)
 {
-50_fibo();
+fibo_50();
 return (0);
 }
