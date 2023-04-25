@@ -13,7 +13,7 @@ while (i < 10)
 {
 for (alp = 'a'; alp <= 'z'; alp++)
 {
-_putchar('alp');
+_putchar(alp);
 }
 _putchar('\n');
 i++;
