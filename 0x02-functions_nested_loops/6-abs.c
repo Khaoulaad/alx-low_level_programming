@@ -15,7 +15,6 @@ int absval;
 absval = n;
 return (absval);
 }
-else
-absval = -1 * n;
+absval = n * -1;
 return (absval);
 }
