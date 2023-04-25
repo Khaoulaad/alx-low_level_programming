@@ -15,6 +15,5 @@ int a_val;
 a_val = n * -1;
 return (a_val);
 }
-a_val = n;
 return (n);
 }
