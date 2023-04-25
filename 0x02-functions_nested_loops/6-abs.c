@@ -9,12 +9,12 @@
  */
 int _abs(int n)
 {
-if (n > 0)
+if (n < 0)
 {
 int a_val;
-a_val = n;
-return (n);
-}
 a_val = n * -1;
 return (a_val);
+}
+a_val = n;
+return (n);
 }
