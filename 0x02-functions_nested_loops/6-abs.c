@@ -13,7 +13,7 @@ if (n > 0)
 {
 int a_val;
 a_val = n;
-return (a_val);
+return (n);
 }
 a_val = n * -1;
 return (a_val);
