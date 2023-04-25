@@ -11,10 +11,10 @@ int _abs(int n)
 {
 if (n > 0)
 {
-int absval;
-absval = n;
-return (absval);
+int a_val;
+a_val = n;
+return (a_val);
 }
-absval = n * -1;
-return (absval);
+a_val = n * -1;
+return (a_val);
 }
