@@ -2,7 +2,7 @@
 
 /**
  * print_line - draw a line
- *
+ * @n: length of the line
  * Return: Always 0.
  */
 void print_line(int n)
@@ -15,5 +15,5 @@ if (n > 0)
 _putchar('_');
 }
 }
-putchar ('\n');
+_putchar ('\n');
 }
