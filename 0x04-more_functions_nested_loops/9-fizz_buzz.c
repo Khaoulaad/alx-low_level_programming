@@ -1,5 +1,4 @@
 #include "stdio.h"
-#include "main.h"
 
 /**
  * fizzbuzz - print number from onetohundred, fizz for odd& buzz for x of five
