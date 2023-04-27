@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-void fizzbuzz(void)
+int fizzbuzz(void)
 {
 int n;
 for ((n = 1); (n = 100); n++)
@@ -29,4 +29,5 @@ printf("%d", n);
 }
 }
 printf("\n");
+return (0);
 }
