@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 /**
  * fizzbuzz - print number from onetohundred, fizz for odd& buzz for x of five
@@ -27,7 +27,6 @@ else
 printf("%d", n);
 }
 }
-printf("Buzz");
 printf("\n");
 return (0);
 }
