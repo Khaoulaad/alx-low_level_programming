@@ -2,21 +2,23 @@
 
 /**
  * print_number - prints an integer
- * @n: input integer parameter
-**/
-
+ * @n: the integer to print
+ */
 void print_number(int n)
 {
-unsigned int i = n;
+unsigned int u;
 if (n < 0)
 {
-_putchar(45);
-i = -i;
+_putchar('-');
+u = -n;
 }
-if (i / 10)
+else
 {
-print_number(i / 10);
+u = n;
 }
-_putchar(i % 10 + '0');
+if (u / 10)
+{
+print_number(u / 10);
 }
-
+_putchar(u % 10 + '0');
+}
