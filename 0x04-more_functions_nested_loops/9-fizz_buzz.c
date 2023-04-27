@@ -1,32 +1,34 @@
 #include <stdio.h>
 
 /**
- * fizzbuzz - print number from onetohundred, fizz for odd& buzz for x of five
+ * fizzbuzz - prints the number from 1 - 100, mult of 3 & 5 print FizzBuzz
  *
- * Return: Always 0.
- */
+ * Return: Always 0 (Success)
+**/
+
 int fizzbuzz(void)
 {
-int n;
-for ((n = 1); (n = 100); n++)
+int i;
+for (i = 1 ; i < 100 ; i++)
 {
-if (n % 3 == 0)
-{
-printf("Fizz ");
-}
-else if (n % 5 == 0)
-{
-printf("Buzz ");
-}
-else if ((n % 5) == 0  && (n % 3) == 0)
+if ((i % 3) == 0 && (i % 5) == 0)
 {
 printf("FizzBuzz ");
 }
+else if (i % 3 == 0)
+{
+printf("Fizz ");
+}
+else if (i % 5 == 0)
+{
+printf("Buzz ");
+}
 else
 {
-printf("%d", n);
+printf("%d ", i);
 }
 }
+printf("Buzz");
 printf("\n");
 return (0);
 }
