@@ -1,19 +1,22 @@
 #include "main.h"
 
 /**
- *  print_rev - updates the value of the variable
- * @s: pointer
+ * print_rev - prints a string in reverse
+ * @s: string to be printed
  */
 void print_rev(char *s)
 {
-int i, n;
+int i, j, lenght;
+i = 0;
 while (s[i] != '\0')
 {
-for (i = 0; i <= n; i++)
-{
-s[i] = s[n - i];
-_putchar(s[i]);
+i++;
 }
+lenght = i;
+for (j = lenght - 1; j >= 0; j--)
+{
+_putchar(s[j]);
 }
 _putchar('\n');
 }
+
