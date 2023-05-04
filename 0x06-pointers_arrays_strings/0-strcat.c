@@ -5,7 +5,7 @@
  * *_strcat - concatenates two strings
  *@dest: first string
  *@src: string to be added
- * Return: Always 0.
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {

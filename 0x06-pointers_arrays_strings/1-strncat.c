@@ -4,10 +4,10 @@
 /**
  * *_strcat - concatenates two strings
  *@dest: first string
- *@src: string to be added
- * Return: Always 0.
+ *@src: string to be added, use max n bytes
+ * Return: dest
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 int i;
 int j;
