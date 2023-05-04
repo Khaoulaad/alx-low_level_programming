@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_strcat - concatenates two strings
+ * *_strncat - concatenates two strings
  *@dest: first string
  *@src: string to be added, use max n bytes
  * Return: dest
