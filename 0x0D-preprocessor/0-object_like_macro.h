@@ -1,4 +1,4 @@
-#ifndef "0-object_like_macro.h"
-#define "0-object_like_macro.h"
+#ifndef "0-OBJECT-LIKE-MACRO.H"
+#define "0-OBJECT-LIKE-MACRO.H"
 #define SIZE 1024
 #endif
