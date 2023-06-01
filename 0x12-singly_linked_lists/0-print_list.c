@@ -20,7 +20,7 @@ while (current != NULL)
 if (current->str != NULL)
 printf("[%d] %s\n", current->len, current->str);
 else
-printf("[0] ()nil)\n");
+printf("[0] (nil)\n");
 numberofnodes = numberofnodes + 1;
 current = current->next;
 }
