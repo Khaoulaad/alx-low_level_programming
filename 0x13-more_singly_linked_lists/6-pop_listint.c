@@ -15,11 +15,11 @@ int pop_listint(listint_t **head)
 
 	if (*head == NULL)
 		return (0);
-	
+
 	firsttobedeleted = *head;
-	content = firsttobedeleted->n;
-	free(firsttobedeleted);
-	
+	content = (*head)->n;
 	*head = (*head)->next;
+	free(firsttobedeleted);
+
 	return (content);
 }
