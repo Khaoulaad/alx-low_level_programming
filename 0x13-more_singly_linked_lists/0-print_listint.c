@@ -18,7 +18,7 @@ const listint_t *current = h;
 while (current != NULL)
 {
 printf("%d\n", current->n);
-numberofnodes += 1;
+numberofnodes++;
 current = current->next;
 }
 return (numberofnodes);
