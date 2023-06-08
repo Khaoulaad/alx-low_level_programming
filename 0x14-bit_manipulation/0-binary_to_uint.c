@@ -15,11 +15,22 @@ unsigned int binary_to_uint(const char *b)
 	int total = 0;
 	int decval = 1;
 
+	if (b == NULL)
+		return (0);
+
 	for (i = (lengh - 1); i >= 0; i--)
 	{
 		if (b[i] == '1')
+		{
 			total += decval;
-		decval *= 2;
+			decval *= 2;
+		}
+		else if (b[i] == '0')
+		{
+			decval *= 2;
+		}
+		else
+			return (0);
 	}
 	return (total);
 }
