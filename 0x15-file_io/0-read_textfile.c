@@ -41,7 +41,4 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	return (Writefile);
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 123920eae66beae55fe9d03a1ffaa42124a9158c
